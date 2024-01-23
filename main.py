@@ -1,5 +1,4 @@
 import hashlib
-from difflib import SequenceMatcher
 
 def hash_file(filename1, filename2):
     h1 = hashlib.sha1()
